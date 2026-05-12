@@ -1,16 +1,16 @@
 # open_port_scanner
-A multi-threaded python port scanner built for identifying open ports and running services on a target system
+A multi-threaded python port scanner built for identifying open ports and running services on a target system  
 
-##**FEATURES**
--> multi-threaded scanning (one thread for each port)
--> common service detection
--> custom port ranges 1-65535 default scanning being 1-1024
--> automatically save results to a timestamped file
-
-##**LIBRARIES USED**
--> socket library for tcp/ip connection handling
--> threading library for concurrent port scanning
--> datetime library for timestamp generation
+##**FEATURES**  
+- multi-threaded scanning (one thread for each port)  
+- common service detection  
+- custom port ranges 1-65535 default scanning being 1-1024  
+- automatically save results to a timestamped file  
+  
+##**LIBRARIES USED**  
+- socket library for tcp/ip connection handling  
+- threading library for concurrent port scanning  
+- datetime library for timestamp generation
 
 THE SCANNER RECOGNIZES 17 COMMON PORTS which is stored as a dictionary in the prg.
 common_ports = {
