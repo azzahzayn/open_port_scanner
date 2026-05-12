@@ -1,0 +1,3 @@
+NO OF OPEN PORTS FOUND: 2
+port no: 22 is open with service SSH
+port no: 80 is open with service HTTP
